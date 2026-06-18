@@ -13,5 +13,9 @@ int main() {
     cout << a + b << endl;
     cout << b + c << endl;
 
+    // Constants
+    const int numOfDays = 7;
+    cout << "This num will not change as it is a constant: " << numOfDays << endl;
+
     return 0;
 }
